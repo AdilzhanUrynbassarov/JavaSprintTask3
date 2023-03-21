@@ -1,0 +1,39 @@
+input {
+    height: 2em;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    padding-bottom: 0;
+    font-size: 1em;
+
+}
+select {
+    height: 2.4em;
+    outline: none;
+    border: none;
+}
+
+
+thead > tr > td:nth-child(n+3){
+    font-weight: bold;
+}
+tbody > tr > td:nth-child(n+3){
+    background-color: grey;
+}
+
+tbody > tr > td {
+    border: 1px solid black;
+
+
+}
+tbody > tr > td {
+    border: 1px solid black;
+
+
+}
+
+
+
+table {
+    border-spacing: 20px;
+}

@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+
+    <table >
+        <thead >
+            <tr >
+                <td><label for="title">Введите сумму</label></td>
+                <td></td>
+                <td><label>KZT (tenge)</label></td>
+                <td><label>USD (dollar)</label></td>
+                <td><label>EUR (euro)</label></td>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="text" id="title" placeholder=" " oninput='input(value)'></td>
+                <td>
+                    <select id="currency"  onchange="change()">
+                        <option value="1" >KZT</option>
+                        <option value="2" >USD</option>
+                        <option value="3" >EUR</option>
+                    </select>
+                </td>
+                <td><input type="text" id="kzt"  disabled></td>
+                <td><input type="text" id="dollar"   disabled></td>
+                <td><input type="text" id="euro"   disabled></td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+
+</html>
